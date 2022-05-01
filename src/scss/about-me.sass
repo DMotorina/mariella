@@ -1,0 +1,120 @@
+.about-me
+    width: 100%
+    max-height: 100%
+    height: 100% 
+
+.about-me-container
+    width: 100%
+    height: 100%
+    background: #CEB3CB
+
+    @media screen and (max-width: 479px) 
+        width: auto
+        height: auto
+
+.about-me-flex
+    display: flex
+    justify-content: center
+
+    @media screen and (max-width: 479px) 
+        flex-direction: column
+        justify-content: left
+
+.about-me-flex__txt
+    background: #B08EAD
+    width: 440px
+    max-width: 100%
+    height: 450px
+    max-height: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    position: absolute
+    left: 21%
+    margin-top: 10%
+
+    @media screen and (max-width: 479px) 
+        flex-direction: column
+        justify-content: center
+        left: 7%
+        width: 86%
+        height: auto
+    
+    @media screen and (max-width: 991px)
+        left: 5%
+        margin-top: 25%
+        width: 45%
+
+.about-me-title
+    margin-bottom: 5px
+    margin-left: 16%
+    text-align: left
+    font-weight: 700
+    font-size: 14px
+    line-height: 30px
+    letter-spacing: 1.5px
+    text-transform: uppercase
+    color: #FFFFFF
+
+.about-me-description-one
+    font-family: 'Cormorant Garamond'
+    text-align: left 
+    font-weight: 400
+    font-size: 40px
+    line-height: 55px
+    color: #FFFFFF
+    margin: 0% 16%
+
+.about-me-description-two
+    font-family: 'Cormorant Garamond'
+    text-align: left 
+    font-weight: 400
+    font-size: 40px
+    line-height: 55px
+    color: #FFFFFF
+    margin: 1% 16%
+
+.about-me-more
+    text-align: left
+    font-weight: 700
+    font-size: 14px
+    line-height: 30px
+    letter-spacing: 1.5px
+    text-transform: uppercase
+    color: #FFFFFF
+    margin-left: 16%
+    cursor: pointer
+
+    &::before 
+        content: ""
+        position: absolute
+        margin-top: 7%
+        width: 25%
+        height: 2px
+        background: #ffff
+
+        @media screen and (max-width: 479px)
+            width: 35%
+            margin-top: 8%
+
+        @media screen and (max-width: 991px)
+            width: 32%
+
+.about-me-image
+    max-width: 100%
+    width: 540px
+    max-height: 100%
+    height: 675px
+    padding-top: 15%
+    padding-bottom: 15%
+    margin-left: 22%
+
+    @media screen and (max-width: 479px) 
+        width: 86%        
+        height: auto
+        margin-left: 7%
+        margin-top: 70%
+
+    @media screen and (max-width: 991px)
+        margin-left: 25%
+        width: 86%
